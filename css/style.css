@@ -1,0 +1,155 @@
+#mideal-faq-list {
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	line-height: 1.42857143;
+}
+
+#mideal-faq-list .no-published {
+	background: rgb(228, 228, 228);
+	padding: 10px;
+}
+
+.mideal-faq-admin-btn {
+	margin-top: 10px;
+	text-align: right;
+}
+
+.mideal-faq-admin-btn .btn{
+	margin-right: 10px;
+    box-shadow: none;
+}
+
+.mideal-faq-admin-btn .btn:hover{
+    box-shadow: none;
+}
+
+#mideal-faq-list .faq-name {
+	float: left;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+#mideal-faq-list .faq-date {
+	float: right;
+	color: #999;
+	font-size: 12px;
+}
+
+#mideal-faq-list .chat-text {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: relative;
+	padding: 5px 10px;
+	background: #eef1f5;
+	color: #444;
+}
+
+
+#mideal-faq-list .faq-answer .chat-text {
+    margin-left: 0;
+}
+
+#mideal-faq-list .chat-text:after,
+#mideal-faq-list .chat-text:before
+{
+    position: absolute;
+    right: 100%;
+    border: solid transparent;
+    border-right-color: inherit;
+    content: ' ';
+    height: 0;
+    width: 0;
+    pointer-events: none;
+}
+
+#mideal-faq-list .chat-text:before {
+    border-width: 6px;
+    margin-top: -6px;
+}
+
+#mideal-faq-list .chat-text:after {
+    border-width: 5px;
+    margin-top: -5px;
+}
+
+#mideal-faq-list .faq-answer .chat-text:after,
+#mideal-faq-list .faq-answer .chat-text:before
+{
+    right: auto;
+    left: 100%;
+    border-right-color: transparent;
+    border-left-color: inherit;
+}
+
+#mideal-faq-list .faq-answer .chat-text {
+    background: #3cb868;
+    color: #fff;
+}
+#mideal-faq-list img.chat-avatar {
+    border-radius: 50%;
+    float: left;
+	display: block;
+}
+
+#mideal-faq-list .faq-answer img.chat-avatar {
+    float: right;
+}
+
+.faq-header {
+	margin-bottom: 5px;
+}
+
+.faq-answer .faq-header  {
+text-align: right;
+margin-top: 5px;
+font-weight: 600;
+font-size: 12px;
+}
+
+.faq-header:after, .faq-header:before,.faq-question:after , .faq-question:before, .faq-answer:after, .faq-answer:before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+#mideal-faq-list hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eef1f5;
+    background: none;
+}
+
+.mideal-faq-admin-btn a{
+text-decoration: none;
+}
+
+#mideal-faq-list .pagination>li a,  #mideal-faq-list .pagination>li span{
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+#mideal-faq-list .pagination a:hover {
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+#form-mideal-faq .has-error .form-control {
+    border-color: #ff5757;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#form-mideal-faq .has-error label, #form-mideal-faq .message-error-sent {
+	color: #ff5757;
+}
+#form-mideal-faq .message-error-sent {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#form-mideal-faq {
+	max-width: 400px;
+}
